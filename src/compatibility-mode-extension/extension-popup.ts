@@ -1,3 +1,10 @@
+/**
+ * Compatibility Mode Extension Handler
+ * Necessary to handle the suggester with somes other plugins, as Various Complement, nl-date, Task or older plugin that doesn't use last Obsidian API.
+ * This extension made Linking works with them without any issue.
+ * It is optional and can be enabled in the settings. By default, it is disabled and use the last API for editor inputs.
+ */
+
 import { type Instance as PopperInstance, createPopper } from "@popperjs/core";
 // Code derived from https://github.com/farux/obsidian-auto-note-mover
 import { type App, Platform, Scope } from "obsidian";

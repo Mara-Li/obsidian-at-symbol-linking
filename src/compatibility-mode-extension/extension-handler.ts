@@ -1,3 +1,10 @@
+/**
+ * Compatibility Mode Extension Handler
+ * Necessary to handle the suggester with somes other plugins, as Various Complement, nl-date, Task or older plugin that doesn't use last Obsidian API.
+ * This extension made Linking works with them without any issue.
+ * It is optional and can be enabled in the settings. By default, it is disabled and use the last API for editor inputs.
+ */
+
 import { syntaxTree } from "@codemirror/language";
 import { ViewPlugin } from "@codemirror/view";
 import type { EditorView, PluginValue, Rect } from "@codemirror/view";
