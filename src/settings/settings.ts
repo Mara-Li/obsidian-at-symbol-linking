@@ -419,7 +419,7 @@ export class SettingsTab extends PluginSettingTab {
 			useCompatibilityModeDesc.createEl("br"),
 			"Renders an HTML popup in place of the native Obsidian popup.",
 			useCompatibilityModeDesc.createEl("br"),
-			"Useful if you other plugins are interfering with the popup (e.g. the Tasks plugin).",
+			"Useful if your others plugins are interfering with the popup (e.g. the Tasks plugin).",
 			useCompatibilityModeDesc.createEl("br"),
 			useCompatibilityModeDesc.createEl("em", {
 				text: "May be slower than the native popup.",
